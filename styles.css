@@ -1,5 +1,5 @@
 .calculator {
-  background-color: rgba(28, 28, 28);
+  background-color: rgb(28, 28, 28);
   padding: 10px;
   border-radius: 10px;
   width: 415px;
@@ -44,7 +44,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 5px;
-  background-color: rgba(80, 80, 80);
+  background-color: rgb(80, 80, 80);
   color: white;
   height: 75px;
   text-align: right;
@@ -54,8 +54,12 @@ body {
 }
 
 .operation {
-  background-color: rgba(255, 149, 0);
+  background-color: rgb(255, 149, 0);
 }
 .number {
   background-color: rgb(132, 132, 131);
+}
+.active {
+  background-color: white;
+  color: rgb(255, 149, 0);
 }
